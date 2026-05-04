@@ -25,8 +25,8 @@
   --container-px: 1.5rem;
 
   /* ── Logo placeholder dimensions ───────────── */
-  --logo-width: 160px;
-  --logo-height: 40px;
+  --logo-width: auto;
+  --logo-height: 72px;
 }
 
 @tailwind base;

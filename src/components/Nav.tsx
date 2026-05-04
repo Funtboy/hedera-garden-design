@@ -2,11 +2,14 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { siteConfig, navigation } from "@/content";
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -29,17 +32,11 @@ export default function Nav() {
           className="flex items-center gap-3 group"
           aria-label={siteConfig.businessName}
         >
-          {/* ── LOGO PLACEHOLDER ────────────────────────────────────────
-              Replace the div below with your <Image> once the logo SVG/PNG
-              is ready. The CSS custom properties --logo-width / --logo-height
-              in globals.css control the slot dimensions.
-          ─────────────────────────────────────────────────────────────── */}
-          <div
-            className="flex items-center justify-center rounded border border-mist-dark bg-mist text-forest text-xs tracking-widest uppercase"
-            style={{ width: "var(--logo-width)", height: "var(--logo-height)" }}
-          >
-            Logo
-          </div>
+          <img
+            src="/logo.png"
+            alt={siteConfig.businessName}
+            style={{ height: "var(--logo-height)", width: "auto", objectFit: "contain", opacity: isHome ? 0 : 1 }}
+          />
         </Link>
 
         {/* Desktop nav */}

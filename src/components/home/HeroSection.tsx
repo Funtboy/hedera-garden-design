@@ -22,6 +22,12 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative container-site pb-20 md:pb-28 w-full">
         <div className="max-w-2xl">
+          <img
+            src="/logo.png"
+            alt="Hedera Garden Design"
+            className="-mb-12 max-h-[306px] md:max-h-[409px]"
+            style={{ width: "auto", objectFit: "contain" }}
+          />
           <p className="text-sage text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
             Residential Garden Design
           </p>

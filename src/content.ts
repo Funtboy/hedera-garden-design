@@ -21,7 +21,6 @@ export const navigation = [
   { label: "Portfolio", href: "/portfolio" },
   { label: "About", href: "/about" },
   { label: "Testimonials", href: "/testimonials" },
-  { label: "Contact", href: "/contact" },
 ];
 
 export const hero = {
