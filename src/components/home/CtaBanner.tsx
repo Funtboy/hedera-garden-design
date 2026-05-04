@@ -10,7 +10,7 @@ export default function CtaBanner() {
       ─────────────────────────────────────────────────────────────────── */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=1920&q=80"
+          src="https://picsum.photos/seed/cta-garden/1920/800"
           alt="Lush garden planting detail"
           className="w-full h-full object-cover object-center"
         />

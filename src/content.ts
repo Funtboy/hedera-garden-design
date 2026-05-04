@@ -40,7 +40,7 @@ export const aboutTeaser = {
   ctaLabel: "About Eleanor",
   ctaHref: "/about",
   // Replace with Eleanor's photo (portrait orientation)
-  imageUrl: "https://images.unsplash.com/photo-1585320806297-9794b3e4aaae?w=900&q=85",
+  imageUrl: "https://picsum.photos/seed/eleanor/900/1100",
   imageAlt: "Eleanor, garden designer, in a lush planting bed",
 };
 
@@ -51,7 +51,7 @@ export const portfolioProjects = [
     location: "Chipping Norton, Oxfordshire",
     description:
       "A productive kitchen garden enclosed by original Cotswold stone walls, blending heritage roses, espalier fruit trees, and raised vegetable beds.",
-    imageUrl: "https://images.unsplash.com/photo-1599685315640-4a43a9f3e395?w=900&q=80",
+    imageUrl: "https://picsum.photos/seed/project1/900/675",
     imageAlt: "Walled kitchen garden with raised beds and climbing roses",
     tags: ["Kitchen Garden", "Country House"],
   },
@@ -61,7 +61,7 @@ export const portfolioProjects = [
     location: "Oxford, Oxfordshire",
     description:
       "A small-footprint city garden transformed into a year-round sanctuary of shade-tolerant planting and pale limestone paving.",
-    imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80",
+    imageUrl: "https://picsum.photos/seed/project2/900/675",
     imageAlt: "Elegant urban courtyard garden with limestone paving",
     tags: ["Courtyard", "Urban"],
   },
@@ -71,7 +71,7 @@ export const portfolioProjects = [
     location: "Burford, Oxfordshire",
     description:
       "Five acres of managed meadow with mown paths threading through wildflower planting — a garden that belongs entirely to its setting.",
-    imageUrl: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=900&q=80",
+    imageUrl: "https://picsum.photos/seed/project3/900/675",
     imageAlt: "Wildflower meadow garden with mown path",
     tags: ["Meadow", "Large Garden"],
   },

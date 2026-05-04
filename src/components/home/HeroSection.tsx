@@ -16,7 +16,7 @@ export default function HeroSection() {
           className="w-full h-full object-cover object-center"
         />
         {/* Gradient overlay — bottom-heavy to frame the text */}
-        <div className="absolute inset-0 bg-gradient-to-t from-forest/80 via-forest/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-forest/95 via-forest/40 to-forest/10" />
       </div>
 
       {/* Content */}
@@ -28,14 +28,14 @@ export default function HeroSection() {
             className="-mb-12 max-h-[306px] md:max-h-[409px]"
             style={{ width: "auto", objectFit: "contain" }}
           />
-          <p className="text-sage text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
+          <p className="text-sage text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in" style={{ textShadow: "0 2px 8px rgba(0,0,0,0.8)" }}>
             Residential Garden Design
           </p>
           <h1 className="text-cream font-serif text-5xl md:text-6xl lg:text-7xl leading-none whitespace-pre-line mb-8 animate-fade-up">
             {hero.headline}
           </h1>
           <p
-            className="text-cream/80 text-lg md:text-xl leading-relaxed mb-10 max-w-lg animate-fade-up"
+            className="text-cream text-lg md:text-xl leading-relaxed mb-10 max-w-lg animate-fade-up"
             style={{ animationDelay: "150ms" }}
           >
             {hero.subtext}
