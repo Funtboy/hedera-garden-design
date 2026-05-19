@@ -116,8 +116,8 @@ To deploy manually: push to the `main` branch on GitHub.
 
 | Page | Status |
 |---|---|
-| Home | Complete |
-| Portfolio | Stub — needs full build |
-| About | Stub — needs full build |
-| Testimonials | Stub — needs full build |
-| Contact | Stub — needs Formspree endpoint |
+| Home | Complete — hero + footer, teaser sections commented out pending more content |
+| Portfolio | Complete — grid layout, placeholder images (swap in `src/content.ts`) |
+| About | Complete — Eleanor's bio, photo, credentials, philosophy section |
+| Testimonials | Complete — full quote list with dividers |
+| Contact | Complete — Formspree form (endpoint: xjgzgwea), email + phone in footer |

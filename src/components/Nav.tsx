@@ -45,14 +45,16 @@ export default function Nav() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm tracking-wider uppercase text-charcoal/70 hover:text-forest transition-colors duration-200"
+              className="text-sm tracking-wider uppercase hover:opacity-70 transition-opacity duration-200"
+              style={{ color: "var(--color-mid-green)" }}
             >
               {item.label}
             </Link>
           ))}
           <Link
             href="/contact"
-            className="ml-4 px-5 py-2.5 text-sm tracking-wider uppercase bg-forest text-cream hover:bg-sage transition-colors duration-300"
+            className="ml-4 px-5 py-2.5 text-sm tracking-wider uppercase text-cream hover:opacity-80 transition-opacity duration-300"
+            style={{ backgroundColor: "var(--color-mid-green)" }}
           >
             Enquire
           </Link>

@@ -3,7 +3,7 @@ import { hero } from "@/content";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full h-screen min-h-[600px] flex items-end overflow-hidden">
+    <section className="relative w-full h-screen min-h-[600px] max-h-[1000px] flex items-end overflow-hidden">
       {/* Background image */}
       {/* ── IMAGE SLOT ──────────────────────────────────────────────────
           Replace the <img> with a Next.js <Image fill priority> once your
@@ -13,7 +13,7 @@ export default function HeroSection() {
         <img
           src={hero.imageUrl}
           alt={hero.imageAlt}
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-cover object-center opacity-30"
         />
         {/* Gradient overlay — bottom-heavy to frame the text */}
         <div className="absolute inset-0 bg-gradient-to-t from-forest/95 via-forest/40 to-forest/10" />
@@ -28,15 +28,15 @@ export default function HeroSection() {
             className="-mb-12 max-h-[306px] md:max-h-[409px]"
             style={{ width: "auto", objectFit: "contain" }}
           />
-          <p className="text-sage text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in" style={{ textShadow: "0 2px 8px rgba(0,0,0,0.8)" }}>
-            Residential Garden Design
+          <p className="text-xl tracking-[0.25em] uppercase mb-4 font-sans" style={{ color: "var(--color-mid-green)" }}>
+            Hedera Garden Design
           </p>
-          <h1 className="text-cream font-serif text-5xl md:text-6xl lg:text-7xl leading-none whitespace-pre-line mb-8 animate-fade-up">
+          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-none mb-8 animate-fade-up" style={{ color: "var(--color-mid-green)" }}>
             {hero.headline}
           </h1>
           <p
-            className="text-cream text-lg md:text-xl leading-relaxed mb-10 max-w-lg animate-fade-up"
-            style={{ animationDelay: "150ms" }}
+            className="text-lg md:text-xl leading-relaxed mb-10 max-w-lg animate-fade-up"
+            style={{ color: "var(--color-mid-green)", animationDelay: "150ms" }}
           >
             {hero.subtext}
           </p>
@@ -46,13 +46,15 @@ export default function HeroSection() {
           >
             <Link
               href={hero.ctaHref}
-              className="px-8 py-4 bg-cream text-forest text-sm tracking-widest uppercase hover:bg-sage hover:text-cream transition-colors duration-300"
+              className="px-8 py-4 text-sm tracking-widest uppercase transition-colors duration-300 hover:opacity-80"
+              style={{ backgroundColor: "var(--color-mid-green)", color: "white" }}
             >
               {hero.ctaLabel}
             </Link>
             <Link
               href="/contact"
-              className="px-8 py-4 border border-cream/50 text-cream text-sm tracking-widest uppercase hover:border-cream hover:bg-cream/10 transition-colors duration-300"
+              className="px-8 py-4 text-sm tracking-widest uppercase transition-colors duration-300 hover:opacity-80"
+              style={{ border: "2px solid var(--color-mid-green)", color: "var(--color-mid-green)" }}
             >
               Start a project
             </Link>
@@ -60,11 +62,6 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 right-8 hidden md:flex flex-col items-center gap-2 text-cream/50">
-        <span className="text-xs tracking-[0.2em] uppercase">Scroll</span>
-        <span className="block w-px h-12 bg-cream/30 animate-pulse" />
-      </div>
     </section>
   );
 }

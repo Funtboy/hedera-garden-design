@@ -9,9 +9,9 @@ export const siteConfig = {
   tagline: "Gardens that grow with you",
   description:
     "Residential garden design for considered outdoor spaces — from intimate courtyards to sprawling country gardens.",
-  email: "hello@hederagardendesign.co.uk",
-  phone: "+44 (0)7700 900000",
-  location: "Based in the Cotswolds · serving Oxfordshire, Gloucestershire & surrounding counties",
+  email: "eleanor@hederagardendesign.co.uk",
+  phone: "+44 (0)7967 047297",
+  location: "Based in London · serving London and the South East of England",
   instagramHandle: "@hederagardendesign",
   // Replace with your actual Vercel / custom domain
   siteUrl: "https://hederagardendesign.co.uk",
@@ -24,13 +24,13 @@ export const navigation = [
 ];
 
 export const hero = {
-  headline: "Spaces that breathe.\nGardens that last.",
+  headline: "Transforming your Garden",
   subtext:
-    "Thoughtful residential garden design rooted in the rhythms of the natural world.",
+    "Bespoke garden design and landscaping across London and the South East.",
   ctaLabel: "See the work",
   ctaHref: "/portfolio",
   // Replace with your own hero image (full-bleed, 2:1 landscape)
-  imageUrl: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1920&q=85",
+  imageUrl: "/plan.jpg",
   imageAlt: "A beautifully landscaped residential garden in summer",
 };
 
@@ -40,8 +40,8 @@ export const aboutTeaser = {
   ctaLabel: "About Eleanor",
   ctaHref: "/about",
   // Replace with Eleanor's photo (portrait orientation)
-  imageUrl: "https://picsum.photos/seed/eleanor/900/1100",
-  imageAlt: "Eleanor, garden designer, in a lush planting bed",
+  imageUrl: "/Eleanor Alty.jpg",
+  imageAlt: "Eleanor Alty, garden designer",
 };
 
 export const portfolioProjects = [
@@ -117,5 +117,5 @@ export const contactInfo = {
     ],
   },
   serviceArea:
-    "Hedera Garden Design works primarily across Oxfordshire, Gloucestershire, Worcestershire, and Wiltshire. Projects further afield are considered on request.",
+    "Hedera Garden Design works primarily across London and the South East of England. Projects further afield are considered on request.",
 };
