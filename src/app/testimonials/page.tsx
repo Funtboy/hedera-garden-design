@@ -67,7 +67,7 @@ export default function TestimonialsPage() {
           </h2>
           <p className="text-charcoal/60 max-w-md mx-auto">
             Join the clients who have transformed their outdoor spaces with
-            Eleanor's help.
+            Eleanor&apos;s help.
           </p>
           <Link
             href="/contact"

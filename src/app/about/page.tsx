@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { aboutTeaser, siteConfig } from "@/content";
+import { aboutTeaser } from "@/content";
 
 export const metadata: Metadata = { title: "About" };
 
@@ -57,7 +57,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   Whether transforming a compact city courtyard or shaping
-                  acres of countryside, Eleanor's work is united by the same
+                  acres of countryside, Eleanor&apos;s work is united by the same
                   principle: that a garden should feel inevitable, as though
                   it always belonged exactly where it is.
                 </p>
