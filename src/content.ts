@@ -13,22 +13,24 @@ export const siteConfig = {
   phone: "+44 (0)7967 047297",
   location: "Based in London · serving London and the South East of England",
   instagramHandle: "@hederagardendesign",
+  instagramUrl: "https://www.instagram.com/hederagardendesign/",
   // Replace with your actual Vercel / custom domain
   siteUrl: "https://hederagardendesign.co.uk",
 };
 
 export const navigation = [
-  { label: "Portfolio", href: "/portfolio" },
+  { label: "Home", href: "/" },
+  // { label: "Portfolio", href: "/portfolio" },   // uncomment when portfolio content is ready
   { label: "About", href: "/about" },
-  { label: "Testimonials", href: "/testimonials" },
+  // { label: "Testimonials", href: "/testimonials" }, // uncomment when testimonials content is ready
 ];
 
 export const hero = {
   headline: "Transforming your Garden",
   subtext:
     "Bespoke garden design and landscaping across London and the South East.",
-  ctaLabel: "See the work",
-  ctaHref: "/portfolio",
+  ctaLabel: "About Eleanor",
+  ctaHref: "/about",
   // Replace with your own hero image (full-bleed, 2:1 landscape)
   imageUrl: "/plan.jpg",
   imageAlt: "A beautifully landscaped residential garden in summer",
